@@ -31,12 +31,50 @@ function GalleryContent() {
       {/* ================= TIỂU SỬ ================= */}
       {tab === "tieu-su" && (
         <div className="space-y-10">
-          <Section title="Tiểu sử chung" text="Chủ tịch Hồ Chí Minh sinh năm 1890 tại Nghệ An..." imgs={[1, 2, 3, 4]} />
-          <Section title="Gia đình Bác" text="Gia đình Bác có truyền thống hiếu học..." imgs={[5, 6, 7, 8]} />
-          <Section title="Sự nghiệp cách mạng" text="Người ra đi tìm đường cứu nước năm 1911..." imgs={[9, 10, 11, 12]} />
-          <Section title="Sự nghiệp viết lách" text="Bác là nhà văn hóa lớn..." imgs={[13, 14, 15, 16]} />
+          <Section 
+            title="Tiểu sử chung" 
+            text="Chủ tịch Hồ Chí Minh sinh năm 1890 tại Nghệ An..." 
+            imgs={[
+              "https://inkythuatso.com/uploads/thumbnails/800/2023/03/nhung-hinh-anh-ve-bac-ho-dep-nhat-2-04-11-49-18.jpg?w=1130",
+              "https://cdn.nbtv.vn/upload/news/5_2020/1_08593319052020.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj3ZRe-FBTsQrJUVJ-xnMoS8LweDWpc9MMXg&s",
+              "https://inkythuatso.com/uploads/thumbnails/800/2023/03/hinh-anh-bac-ho-cuoi-1-04-11-51-12.jpg?w=1130"
+            ]} 
+          />
+
+          <Section 
+            title="Gia đình Bác" 
+            text="Gia đình Bác có truyền thống hiếu học..." 
+            imgs={[
+              "https://baoquankhu4.com.vn/upload/18269/fck/files/Gia%20dinh%20bac.png",
+              "https://phuongnam.vanhoavaphattrien.vn/uploads/images/2021/12/15/images1768118-8-1639552864.jpg"
+            ]} 
+          />
+
+          <Section 
+            title="Sự nghiệp cách mạng" 
+            text="Người ra đi tìm đường cứu nước năm 1911..." 
+            imgs={[
+              "https://files.bienphong.com.vn//bbpmedia/media/730/2022/5/19/86480452pm_su-nghiep-cach-mang1.jpg",
+              "https://baoquankhu4.com.vn/upload/18269/fck/files/Ch%E1%BB%A7%20t%E1%BB%8Bch%20H%E1%BB%93%20Ch%C3%AD%20Minh%20v%C3%A0%20c%C3%A1c%20%C4%91%E1%BB%93ng%20ch%C3%AD%20l%C3%A3nh%20%C4%91%E1%BA%A1o%20trong%20m%E1%BB%99t%20phi%C3%AAn%20h%E1%BB%8Dp%20t%E1%BA%A1i%20chi%E1%BA%BFn%20khu%20Vi%E1%BB%87t%20B%E1%BA%AFc,%20chu%E1%BA%A9n%20b%E1%BB%8B%20cho%20chi%E1%BA%BFn%20d%E1%BB%8Bch%20%C4%90i%E1%BB%87n%20Bi%C3%AAn%20Ph%E1%BB%A7.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzdlR-xaO7Dfa_EOoYT8rG2W0CVhCo8zIksw&s",
+              "https://bcp.cdnchinhphu.vn/334894974524682240/2022/8/29/e4-16617410965231509364760.jpg"
+            ]} 
+          />
+
+          <Section 
+            title="Sự nghiệp viết lách" 
+            text="Bác là nhà văn hóa lớn..." 
+            imgs={[
+              "https://lh6.googleusercontent.com/proxy/hg5sDalLtGEB78veMmtW9X29TbSnYdCKWEcXuCeKIsOkgcssmWoIvyWjyajPL8Sv0rYfcQ0y8i4WFpsEfLCyWUDDBF7Os92cmMgkxjfNg8SqpxXm7vxw70caCwaGi3UxtYyMc0LYaGfCtx87",
+              "https://file3.qdnd.vn/data/images/0/2024/08/26/upload_2062/a-bac.jpg",
+              "https://imgnvsk.vnanet.vn/MediaUpload/Org/2023/09/08/z4646325144569-bfc4bd69760244106c10fed14b71629c30-9-49-21-1-8-15-36-22.jpg",
+              "https://cand.com.vn/Files/Image/vietphung/2019/08/31/thumb_660_389e28ff-c685-4d08-a422-696769957484.jpg"
+            ]} 
+          />
         </div>
       )}
+      
 
       {/* ================= QUÊ NỘI ================= */}
       {tab === "que-noi" && (
