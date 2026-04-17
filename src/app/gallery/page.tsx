@@ -171,12 +171,13 @@ function Section({ title, text, imgs }: any) {
         {text}
       </p>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        {imgs.map((i: number) => (
+        {/* SỬA TẠI ĐÂY: Dùng trực tiếp biến 'img' thay vì link picsum */}
+        {imgs.map((img: any, index: number) => (
           <img
-            key={i}
-            src={`https://picsum.photos/300/200?random=${i}`}
-            className="rounded-xl hover:scale-105 transition"
-            alt="Gallery"
+            key={index}
+            src={typeof img === 'string' ? img : `https://picsum.photos/300/200?random=${img}`}
+            className="rounded-xl hover:scale-105 transition object-cover h-48 w-full"
+            alt={title}
           />
         ))}
       </div>
