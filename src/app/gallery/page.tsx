@@ -33,7 +33,7 @@ function GalleryContent() {
         <div className="space-y-10">
           <Section 
             title="Tiểu sử chung" 
-            text="Chủ tịch Hồ Chí Minh sinh năm 1890 tại Nghệ An..." 
+            text="Chủ tịch Hồ Chí Minh (1890–1969), tên khai sinh Nguyễn Sinh Cung, là vị lãnh tụ vĩ đại của dân tộc Việt Nam. Sinh tại Nghệ An trong gia đình nhà nho yêu nước, Người ra đi tìm đường cứu nước năm 1911, tìm thấy con đường giải phóng dân tộc theo chủ nghĩa Mác-Lênin, thành lập Đảng Cộng sản Việt Nam, lãnh đạo cách mạng tháng Tám thành công và trở thành Chủ tịch nước đầu tiên.Chủ tịch Hồ Chí Minh sinh năm 1890 tại Nghệ An..." 
             imgs={[
               "https://inkythuatso.com/uploads/thumbnails/800/2023/03/nhung-hinh-anh-ve-bac-ho-dep-nhat-2-04-11-49-18.jpg?w=1130",
               "https://cdn.nbtv.vn/upload/news/5_2020/1_08593319052020.jpg",
@@ -44,16 +44,16 @@ function GalleryContent() {
 
           <Section 
             title="Gia đình Bác" 
-            text="Gia đình Bác có truyền thống hiếu học..." 
+            text="Hồ Chí Minh sinh ra trong một gia đình nhà nho yêu nước tại làng Sen (Kim Liên), Nghệ An. Cha là cụ phó bảng Nguyễn Sinh Sắc, mẹ là bà Hoàng Thị Loan. Gia đình có 4 người con, bao gồm: chị gái Nguyễn Thị Thanh, anh trai Nguyễn Sinh Khiêm, Hồ Chí Minh (tên khai sinh Nguyễn Sinh Cung) và em trai Nguyễn Sinh Nhuận." 
             imgs={[
-              "https://baoquankhu4.com.vn/upload/18269/fck/files/Gia%20dinh%20bac.png",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjwUYIJTxvVb-lChqBJd2CuKmG4qJnozEARA&s",
               "https://phuongnam.vanhoavaphattrien.vn/uploads/images/2021/12/15/images1768118-8-1639552864.jpg"
             ]} 
           />
 
           <Section 
             title="Sự nghiệp cách mạng" 
-            text="Người ra đi tìm đường cứu nước năm 1911..." 
+            text="Chủ tịch Hồ Chí Minh (1890–1969) là lãnh tụ vĩ đại của cách mạng Việt Nam, người tìm ra con đường giải phóng dân tộc theo chủ nghĩa Mác-Lênin. Người ra đi tìm đường cứu nước năm 1911, thành lập Đảng Cộng sản Việt Nam (1930), lãnh đạo Cách mạng Tháng Tám thành công (1945), và sáng lập nước Việt Nam Dân chủ Cộng hòa." 
             imgs={[
               "https://files.bienphong.com.vn//bbpmedia/media/730/2022/5/19/86480452pm_su-nghiep-cach-mang1.jpg",
               "https://baoquankhu4.com.vn/upload/18269/fck/files/Ch%E1%BB%A7%20t%E1%BB%8Bch%20H%E1%BB%93%20Ch%C3%AD%20Minh%20v%C3%A0%20c%C3%A1c%20%C4%91%E1%BB%93ng%20ch%C3%AD%20l%C3%A3nh%20%C4%91%E1%BA%A1o%20trong%20m%E1%BB%99t%20phi%C3%AAn%20h%E1%BB%8Dp%20t%E1%BA%A1i%20chi%E1%BA%BFn%20khu%20Vi%E1%BB%87t%20B%E1%BA%AFc,%20chu%E1%BA%A9n%20b%E1%BB%8B%20cho%20chi%E1%BA%BFn%20d%E1%BB%8Bch%20%C4%90i%E1%BB%87n%20Bi%C3%AAn%20Ph%E1%BB%A7.jpg",
@@ -64,7 +64,7 @@ function GalleryContent() {
 
           <Section 
             title="Sự nghiệp viết lách" 
-            text="Bác là nhà văn hóa lớn..." 
+            text="Sự nghiệp viết lách của Chủ tịch Hồ Chí Minh là một bộ phận không thể tách rời sự nghiệp cách mạng vĩ đại của Người. Văn chương đối với Hồ Chí Minh trước hết là một vũ khí sắc bén chiến đấu vì độc lập, tự do của dân tộc và chủ nghĩa xã hội." 
             imgs={[
               "https://lh6.googleusercontent.com/proxy/hg5sDalLtGEB78veMmtW9X29TbSnYdCKWEcXuCeKIsOkgcssmWoIvyWjyajPL8Sv0rYfcQ0y8i4WFpsEfLCyWUDDBF7Os92cmMgkxjfNg8SqpxXm7vxw70caCwaGi3UxtYyMc0LYaGfCtx87",
               "https://file3.qdnd.vn/data/images/0/2024/08/26/upload_2062/a-bac.jpg",

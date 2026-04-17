@@ -8,21 +8,21 @@ export default function ThongTinSo() {
   const data = [
     {
       title: "Tiểu sử Bác Hồ",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk1y7iWQMOMDnNn75YFiwWWDoFQG1I_myctQ&s",
+      img: "https://phunuvietnam.mediacdn.vn/thumb_w/1098/179072216278405120/2021/2/5/anhhcm-16125276560891883717156-39-0-352-500-crop-16125278924161225007805.jpg",
       content:
         "Chủ tịch Hồ Chí Minh sinh năm 1890 tại Nghệ An. Người đã dành cả cuộc đời cho sự nghiệp giải phóng dân tộc."
     },
     {
       title: "Quê nội - Làng Sen",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeF6hp_HPxrGx0H9BrZMRV5Jk2o0wtdoh04Q&s",
+      img: "https://bizweb.dktcdn.net/100/006/093/articles/lang-sen-que-bac.jpg?v=1619666141447",
       content:
-        "Làng Sen là nơi gắn liền với tuổi thơ của Bác, mang đậm nét văn hóa truyền thống Việt Nam."
+        "Làng Sen (hay làng Kim Liên) thuộc xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An, là quê nội của Chủ tịch Hồ Chí Minh. Nơi đây lưu giữ ngôi nhà tranh 5 gian mộc mạc, nơi Bác Hồ từng sống thời thơ ấu (1901-1906), cùng các di tích như ao sen, giếng Cốc và đền làng Sen"
     },
     {
       title: "Quê ngoại - Hoàng Trù",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCCF6KeW_bSEUs_0ANtyfpATs5z4IPcxQgCQ&s",
       content:
-        "Hoàng Trù là quê mẹ của Bác Hồ, nơi lưu giữ những ký ức gia đình sâu sắc."
+        "Quê ngoại Hoàng Trù (hay làng Chùa) tọa lạc tại xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An, là nơi Chủ tịch Hồ Chí Minh cất tiếng khóc chào đời và sống 5 năm tuổi ấu thơ (1890-1895). Cụm di tích rộng khoảng 3500 mét vuông, bao gồm nhà thờ chi nhánh họ Hoàng Xuân, nhà cụ Hoàng Đường (ông ngoại Bác) và ngôi nhà tranh đơn sơ nơi Bác Hồ sinh ra."
     },
     {
       title: "Ký ức cộng đồng",
