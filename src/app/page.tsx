@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
 export default function Home() {
-  const [showModal, setShowModal] = useState(false);
+  
 
   // 🌄 DANH SÁCH ẢNH NỀN
   const backgrounds = [
@@ -94,46 +94,6 @@ export default function Home() {
           </Link>
         ))}
       </div>
-
-      {/* NÚT MỞ MODAL (Bạn có thể thêm nút này để kích hoạt modal) */}
-      <div className="text-center pb-10">
-          <button 
-            onClick={() => setShowModal(true)}
-            className="bg-green-600 hover:bg-green-700 px-6 py-3 rounded-full font-bold transition"
-          >
-            Đóng góp ký ức của bạn
-          </button>
-      </div>
-
-      {/* 📥 MODAL */}
-      {showModal && (
-        <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
-          <div className="bg-white text-black p-8 rounded-2xl w-full max-w-lg relative">
-            <button 
-              onClick={() => setShowModal(false)}
-              className="absolute top-4 right-4 text-gray-500 hover:text-black"
-            >
-              ✕
-            </button>
-            <h2 className="text-2xl font-bold mb-4 text-center text-green-800">
-              Đóng góp ký ức
-            </h2>
-            <input placeholder="Họ tên" className="w-full p-3 border rounded mb-3 focus:outline-green-600" />
-            <input placeholder="Địa chỉ" className="w-full p-3 border rounded mb-3 focus:outline-green-600" />
-            <textarea placeholder="Chia sẻ của bạn..." className="w-full p-3 border rounded mb-3 h-32 focus:outline-green-600" />
-            <input type="file" className="mb-4 text-sm" />
-            <button
-              onClick={() => {
-                alert("Cảm ơn bạn đã đóng góp!");
-                setShowModal(false);
-              }}
-              className="w-full bg-green-700 hover:bg-green-800 text-white py-3 rounded-lg font-bold transition"
-            >
-              Gửi thông tin
-            </button>
-          </div>
-        </div>
-      )}
     </div>
   );
 }

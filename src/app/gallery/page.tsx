@@ -80,8 +80,41 @@ function GalleryContent() {
       {tab === "que-noi" && (
         <Section
           title="Quê nội - Làng Sen"
-          text="Làng Sen là nơi Bác lớn lên..."
-          imgs={[17, 18, 19, 20]}
+          text={`Làng Sen (tên chữ là Kim Liên) là quê nội của Chủ tịch Hồ Chí Minh. Nếu làng Hoàng Trù là nơi Người sinh ra, thì làng Sen là nơi nuôi dưỡng những năm tháng thiếu niên (từ năm 11 đến 16 tuổi) và chứng kiến sự trưởng thành về tinh thần yêu nước của Bác.
+
+📍 Thông tin vị trí & quy mô
+
+-Địa chỉ: Xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An.
+
+-Khoảng cách: Cách làng Hoàng Trù khoảng 2km và cách thành phố Vinh khoảng 15km.
+
+-Tên gọi: Sở dĩ có tên là làng Sen vì quanh làng có rất nhiều hồ sen, tỏa hương thơm ngát vào mùa hè.
+
+🏠 Các hạng mục di tích chính
+
+-Di tích làng Sen mang vẻ đẹp thanh bình với những hàng rào râm bụt và bóng tre xanh:
+
++)Ngôi nhà gỗ 5 gian: Đây là ngôi nhà do nhân dân làng Sen dựng tặng cụ Nguyễn Sinh Sắc (thân sinh Bác Hồ) khi cụ đỗ Phó bảng năm 1901.
+
++)Cổng nhà và sân vườn: Ngôi nhà có cổng bằng tre, bao quanh là hàng rào râm bụt cắt tỉa gọn gàng. Trong sân có những chum vôi, gáo dừa và các đồ dùng sinh hoạt giản dị.
+
++)Các kỷ vật: Phản gỗ, chõ gỗ, mâm gỗ sơn đen... gắn liền với đời sống của cụ Phó bảng và các con (ông Khiêm, bà Thanh và Bác Hồ).
+
++)Ao Sen và Giếng Cốc: Những địa danh gắn liền với kỷ niệm thời thơ ấu, nơi Bác thường ra vui chơi hoặc giúp gia đình gánh nước.
+
+✨ Ý nghĩa lịch sử
+
+-Nơi hội tụ lòng dân: Ngôi nhà 5 gian là món quà của dân làng thể hiện sự kính trọng đối với vị quan thanh liêm, học rộng như cụ Phó bảng.
+
+-Nơi nhen nhóm ý chí cách mạng: Tại đây, Bác Hồ đã chứng kiến nhiều buổi đàm luận việc nước giữa cha mình và các chí sĩ yêu nước như Phan Bội Châu, Vương Thúc Quý.
+
+-Biểu tượng văn hóa: Làng Sen là biểu tượng cho nếp sống thanh bạch, hiếu học và lòng yêu nước của người dân xứ Nghệ.`} 
+          imgs={[
+            "https://anhsangvacuocsong.vn/wp-content/uploads/2022/02/Lang-Sen-que-noi-cua-Bac.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdznHYt7ltB8qQP6ySWkjGL_qpndTb9n_mJQ&s",
+            "https://lh4.googleusercontent.com/proxy/726ZS2M4dMiwVnGidEoyQWywpRMR7Njznkgmc6yiVQ4W2jcjbrgXnrKesuL_6UUjT-2Fl-o6cpHFYLEH42kANqfUk-N9N25N32zjFdOd76WaxwA4k-Ykpw",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRbuBG3yq5adFuDthtXhTHXIy3-6jpywArAQ&s"
+          ]}
         />
       )}
 
@@ -89,8 +122,38 @@ function GalleryContent() {
       {tab === "que-ngoai" && (
         <Section
           title="Quê ngoại - Hoàng Trù"
-          text="Hoàng Trù là nơi Bác sinh ra..."
-          imgs={[21, 22, 23, 24]}
+          text={`Làng Hoàng Trù (hay còn gọi là làng Chùa) là quê ngoại và cũng chính là nơi sinh của Chủ tịch Hồ Chí Minh. Đây là một trong những di tích quan trọng nhất thuộc Khu di tích Kim Liên, nơi lưu giữ những ký ức đầu đời của Bác từ khi chào đời (19/5/1890) đến năm 5 tuổi. 
+
+📍 Thông tin vị trí & quy mô
+
+-Địa chỉ: Xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An.
+
+-Khoảng cách: Cách thành phố Vinh khoảng 15km về phía Tây và cách làng Sen (quê nội) khoảng 2km.
+
+-Diện tích: Cụm di tích nằm gọn trong khu vườn rộng khoảng 3.500m² (7 sào Trung Bộ). 
+
+🏠 Các hạng mục di tích chính
+
+-Cụm di tích Hoàng Trù mang đậm nét kiến trúc nông thôn Việt Nam cuối thế kỷ XIX với mái tranh, vách đất đơn sơ: 
+
++)Nhà thờ chi nhánh họ Hoàng Xuân: Nơi thờ tự tổ tiên bên ngoại của Bác.
+
++)Ngôi nhà của cụ Hoàng Đường: Nhà của ông bà ngoại Bác, nơi cha mẹ Bác (cụ Nguyễn Sinh Sắc và cụ Hoàng Thị Loan) đã sống sau khi kết hôn.
+
++)Ngôi nhà tranh 3 gian: Do cụ Hoàng Đường dựng cho con rể. Đây chính là nơi Bác Hồ cất tiếng khóc chào đời.
+
++)Các kỷ vật: Trong nhà vẫn lưu giữ bộ phản gỗ, chiếc án thư nơi cụ Sắc học bài, chiếc võng đưa Bác ngủ và khung cửi dệt vải của bà Hoàng Thị Loan. 
+
+✨ Ý nghĩa lịch sử
+-Nơi nuôi dưỡng tâm hồn: Hoàng Trù không chỉ là nơi sinh mà còn là môi trường giáo dục đầu tiên, nơi Bác nhận được sự dạy dỗ từ ông ngoại là thầy học nổi tiếng và người mẹ đảm đang.
+
+-Điểm đến du lịch: Hàng năm, nơi đây đón hàng triệu lượt khách đến thăm để tìm hiểu về thân thế, sự nghiệp và phong cách giản dị của Người.`}
+          imgs={[
+            "https://bna.1cdn.vn/2024/06/12/bna_que-ngoai-bac-ho-1.jpg",
+            "https://cdn.media.dulich24.com.vn/diemden/lang-hoang-tru-que-ngoai-bac-ho-6424/lang-hoang-tru-que-ngoai-bac-ho-3.jpg",
+            "https://phuongnam.vanhoavaphattrien.vn/uploads/images/2024/05/07/z5418663115768-5f33661d267d66ad82da3de4690743ae-1715100319.jpg",
+            "https://bna.1cdn.vn/2024/06/01/bna_ben-trong-ngoi-nha-moc-mac-don-so-cua-cu-hoang-xuan-duong..jpg"
+          ]}
         />
       )}
 
@@ -99,16 +162,21 @@ function GalleryContent() {
         <div className="space-y-10">
           <div className="bg-white p-6 rounded-2xl shadow text-center">
             <h2 className="text-3xl font-bold text-green-700 mb-4">
-              Ký ức về Bác Hồ
+              Ký ức về Bác Hồ và Kim Liên 
             </h2>
             <p className="italic text-gray-600 max-w-2xl mx-auto">
-              "Bác Hồ luôn sống trong trái tim mỗi người dân Việt Nam..."
+              "Bác sống trong lòng dân – Kim Liên rạng rỡ dấu chân người về. Cùng lan tỏa hạnh phúc và niềm tự hào khi được chạm vào ký ức thiêng liêng tại quê Bác!"
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
-              {[1, 2, 3, 4].map(i => (
+              {[
+                "https://images.baodantoc.vn/uploads/2024/Thang-4/Ngay-27/My-Thanh/BH%201.jpg",
+                "https://images.hcmcpv.org.vn/res/news/2023/01/22-01-2023-bac-ho-voi-tet-co-truyen-dan-toc-17F694C8.jpg",
+                "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/2/18/1657367/A91_150Kb.jpg",
+                "https://media-cdn-v2.laodong.vn/storage/newsportal/2024/5/19/1341850/KIM-LIEN.jpg?w=800&h=496&crop=auto&scale=both"
+              ].map((url, idx) => (
                 <img
-                  key={i}
-                  src={`https://picsum.photos/300/200?random=${i}`}
+                  key={idx}
+                  src={url}
                   className="rounded-xl"
                   alt="Ký ức"
                 />
@@ -167,7 +235,7 @@ function Section({ title, text, imgs }: any) {
       <h2 className="text-2xl font-bold text-green-700 mb-3">
         {title}
       </h2>
-      <p className="mb-4 text-gray-700">
+      <p className="mb-4 text-gray-700 whitespace-pre-line">
         {text}
       </p>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
